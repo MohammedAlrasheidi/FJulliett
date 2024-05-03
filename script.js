@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     const inputText = document.getElementById('inputText');
-    const generateBtn = document.getElementById('generateBtn'); // Check if this ID matches the ID in your HTML
-    const clearBtn = document.getElementById('clearBtn');
+    const generateBtn = document.getElementById('generateBtn');
+    const clearBtn = document.getElementById('clearBtn'); // Add this line
     const outputList = document.getElementById('outputList');
     const outputFormatSelect = document.getElementById('outputFormat');
 
-    generateBtn.addEventListener('click', function() { // Check if the event listener is attached correctly
+    generateBtn.addEventListener('click', function() {
         generatePhonetic();
     });
 
-    clearBtn.addEventListener('click', function() {
+    clearBtn.addEventListener('click', function() { // Add this block
         clearOutput();
     });
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const outputFormat = outputFormatSelect.value;
 
         let phonetic;
-        if (outputFormat === 'kebob-case') {
+        if (outputFormat === 'kebob-case') { // Adjusted value
             phonetic = generateKebobCase(text);
         } else if (outputFormat === 'civilian') {
             phonetic = generateCivilian(text);
