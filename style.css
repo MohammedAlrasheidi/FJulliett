@@ -1,53 +1,54 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px; /* Increased margin */
-    padding: 10px; /* Increased padding */
-    background-color: #f0f0f0; /* Light background */
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /* Comic Sans font for extra fun */
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffccff; /* Light pink background */
 }
 
 header, footer {
-    background-color: #ff6600; /* Bright orange */
+    background-color: #ff9933; /* Bright orange */
     color: white;
-    padding: 20px; /* Increased padding */
+    padding: 20px;
     text-align: center;
-    margin-bottom: 20px; /* Increased margin bottom */
+    margin-bottom: 20px;
 }
 
 main {
-    padding: 20px; /* Increased padding */
+    padding: 20px;
 }
 
 textarea {
-    width: 50%; /* Increased width */
-    height: 50px; /* Increased height */
-    margin-bottom: 10px; /* Increased margin */
+    width: 50%;
+    height: 50px;
+    margin-bottom: 10px;
 }
 
 button {
-    padding: 10px 20px; /* Increased padding */
-    background-color: #00cc00; /* Bright green */
+    padding: 10px 20px;
+    background-color: #ff3399; /* Pink */
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 16px; /* Increased font size */
+    font-size: 16px;
+    border-radius: 10px; /* Rounded corners */
 }
 
 button:hover {
-    background-color: #009900; /* Darker green */
+    background-color: #cc0066; /* Darker pink */
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    margin: 0; /* Removed margin */
+    margin: 0;
 }
 
 li {
-    margin-bottom: 5px; /* Increased margin bottom */
-    font-size: 18px; /* Increased font size */
-    line-height: 1.5; /* Increased line height */
-    background-color: #fff; /* White background */
-    padding: 10px; /* Increased padding */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow */
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffff66; /* Yellow background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
 }
