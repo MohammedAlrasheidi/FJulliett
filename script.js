@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const inputText = document.getElementById('inputText');
     const generateBtn = document.getElementById('generateBtn');
-    const clearBtn = document.getElementById('clearBtn'); // Add this line
+    const clearBtn = document.getElementById('clearBtn');
     const outputList = document.getElementById('outputList');
     const outputFormatSelect = document.getElementById('outputFormat');
 
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         generatePhonetic();
     });
 
-    clearBtn.addEventListener('click', function() { // Add this block
+    clearBtn.addEventListener('click', function() {
         clearOutput();
     });
 
@@ -24,24 +24,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const outputFormat = outputFormatSelect.value;
 
         let phonetic;
-        if (outputFormat === 'kebob-case') { // Adjusted value
-            phonetic = generateKebobCase(text);
-        } else if (outputFormat === 'civilian') {
-            phonetic = generateCivilian(text);
-        } else if (outputFormat === 'nato') {
+        if (outputFormat === 'nato') {
             phonetic = generateNato(text);
         }
 
         displayPhonetic(phonetic);
-    }
-
-    function generateKebobCase(text) {
-        return text.replace(/\s+/g, '-');
-    }
-
-    function generateCivilian(text) {
-        // Your custom civilian phonetic conversion logic
-        return text.toLowerCase();
     }
 
     function generateNato(text) {
