@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     const inputText = document.getElementById('inputText');
-    const generateBtn = document.getElementById('generateBtn');
+    const generateBtn = document.getElementById('generateBtn'); // Check if this ID matches the ID in your HTML
     const clearBtn = document.getElementById('clearBtn');
     const outputList = document.getElementById('outputList');
     const outputFormatSelect = document.getElementById('outputFormat');
 
-    generateBtn.addEventListener('click', function() {
+    generateBtn.addEventListener('click', function() { // Check if the event listener is attached correctly
         generatePhonetic();
     });
 
