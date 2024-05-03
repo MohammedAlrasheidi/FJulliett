@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Increased margin */
+    padding: 10px; /* Increased padding */
+    background-color: #f0f0f0; /* Light background */
+}
+
+header, footer {
+    background-color: #ff6600; /* Bright orange */
+    color: white;
+    padding: 20px; /* Increased padding */
+    text-align: center;
+    margin-bottom: 20px; /* Increased margin bottom */
+}
+
+main {
+    padding: 20px; /* Increased padding */
+}
+
+textarea {
+    width: 50%; /* Increased width */
+    height: 50px; /* Increased height */
+    margin-bottom: 10px; /* Increased margin */
+}
+
+button {
+    padding: 10px 20px; /* Increased padding */
+    background-color: #00cc00; /* Bright green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+}
+
+button:hover {
+    background-color: #009900; /* Darker green */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Removed margin */
+}
+
+li {
+    margin-bottom: 5px; /* Increased margin bottom */
+    font-size: 18px; /* Increased font size */
+    line-height: 1.5; /* Increased line height */
+    background-color: #fff; /* White background */
+    padding: 10px; /* Increased padding */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
